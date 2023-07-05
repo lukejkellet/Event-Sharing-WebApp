@@ -1,0 +1,367 @@
+img {
+	max-width: 100%;
+}
+
+html {
+	font-size: 100%;
+	font-family: arial;
+
+}
+
+@media (min-width: 640px) {
+	body {
+		font-size: 1rem;
+	}
+}
+
+@media (min-width:960px) {
+	body {
+		font-size: 1.2rem;
+	}
+}
+
+@media (min-width:1100px) {
+	body {
+		font-size: 1.5rem;
+	}
+}
+
+.sidenav {
+	height: 100%;
+	/* Full-height: remove this if you want "auto" height */
+	width: 160px;
+	/* Set the width of the sidebar */
+	position: fixed;
+	/* Fixed Sidebar (stay in place on scroll) */
+	z-index: 1;
+	/* Stay on top */
+	top: 0;
+	/* Stay at the top */
+	left: 0;
+	background-color: #111;
+	/* Black */
+	overflow-x: hidden;
+	/* Disable horizontal scroll */
+	padding-top: 20px;
+}
+
+.sidenav a {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #818181;
+	display: block;
+}
+
+.sidenav a:hover {
+	color: #f1f1f1;
+}
+
+.categories {
+	overflow: hidden;
+	display: inline-block;
+	border-radius: 25px;
+	float: right;
+}
+
+.create-event {
+	overflow: hidden;
+	display: inline-block;
+	border-radius: 25px;
+	float: left;
+}
+
+.categories button,
+.create-event button {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 16px 16px;
+	font-size: 17px;
+	background-color: black;
+	border: none;
+}
+
+.categories button.active,
+.create-event button,
+.post .details button {
+	background-color: #04AA6D;
+	color: white;
+}
+
+.categories button:hover,
+.create-event button:hover,
+.tab-buttons button:hover,
+.all-posts .details button:hover,
+.recent-posts .details button:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+.main {
+	margin-left: 160px;
+	font-size: 28px;
+	/* Increased text to enable scrolling */
+	padding: 0px 10px;
+}
+
+section {
+	margin-top: 1%;
+	border-radius: 25px;
+}
+
+h3 {
+	display: block;
+	margin: 1%;
+	font-size: 32px;
+}
+
+p {
+	margin: 1%;
+}
+
+.post {
+	outline: solid 1px;
+	margin-top: 1%;
+	display: grid;
+	padding-left: 1%;
+	border-radius: 25px;
+	overflow: hidden;
+}
+
+.details {
+	grid-column: 1;
+	display: flex;
+	padding-top: 1%;
+	width: 100%;
+}
+
+.thumbnail {
+	grid-column: 2;
+	display: flex;
+}
+
+
+/*VIEW EVENT OVERLAY*/
+.showOverlay {
+	width: 100%;
+	height: 100%;
+	grid-column: 1;
+	display: flex;
+}
+
+.overlay {
+	position: fixed;
+	/* Sit on top of the page content */
+	width: 100%;
+	/* Full width (cover the whole page) */
+	height: 100%;
+	/* Full height (cover the whole page) */
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	/* Black background with opacity */
+	z-index: 2;
+	/* Specify a stack order in case you're using a different order for other elements */
+	cursor: pointer;
+	/* Add a pointer on hover */
+}
+
+.overlay form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+	max-width: 500px;
+	background-color: #ddd;
+}
+
+.overlay form label {
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.overlay form input,
+.overlay form select {
+	padding: 5px;
+	margin-bottom: 10px;
+	width: 100%;
+	max-width: 400px;
+}
+
+.overlay .details {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	max-width: 500px;
+	padding: 20px;
+	background-color: white;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+	display: flex;
+	flex-direction: column;
+  }
+  
+  .overlay .details .thumbnail {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+  }
+  
+  .overlay .details .title {
+	font-size: 24px;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 5px;
+  }
+  
+  .overlay .details .label {
+	font-weight: bold;
+  }
+  
+  .overlay .details .info {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 10px;
+  }
+  
+  .overlay .details .info div {
+	flex-basis: 50%;
+  }
+  
+  .overlay .details .close {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	font-size: 24px;
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+  }
+  
+  .overlay .details .close:hover {
+	color: red;
+  }
+  
+.tab-buttons {
+	width: 100%;
+	overflow: hidden;
+	color: #f2f2f2;
+	font-size: 17px;
+	text-align: center;
+	margin-top: 4rem;
+}
+
+.tab-buttons button {
+	width: 13.3%;
+	border: none;
+	text-decoration: none;
+	padding: 0.6rem;
+	cursor: pointer;
+	background: #555;
+	color: #ffffff;
+	font-family: sans-serif;
+}
+
+.tab-content {
+	text-align: center;
+	display: grid;
+	background: #ddd;
+	padding: 5rem;
+	margin-left: 30%;
+	margin-right: 30%;
+	border: solid 1px;
+	border-top: solid 5px;
+}
+
+.tab-content p {
+	font-size: 2rem;
+	padding-bottom: 1rem;
+}
+
+.tab-content button {
+	width: 6rem;
+	padding: 13px;
+	margin-top: 2rem;
+	border: none;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 15px;
+	background: #17bf87;
+	color: #000000;
+	cursor: pointer;
+}
+
+.contents {
+	display: flex;
+}
+
+.updateEmail,
+.updatePassword {
+	display: inline-block;
+	border: solid;
+	width: 50%;
+	padding: 10px;
+	margin: 10px;
+	box-sizing: border-box;
+	box-shadow: #000000;
+	border-radius: 25px;
+}
+
+.all-posts,
+.recent-posts {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.post {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+
+.post .details {
+	display: flex;
+	flex-direction: column;
+	margin-right: 20px;
+}
+
+.post .details .title {
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+
+
+.post .thumbnail,
+.recent-posts .thumbnail {
+	flex-shrink: 0;
+	width: 40%;
+}
+
+.post .details button {
+	margin-left: auto;
+	margin-top: auto;
+	margin-bottom: 5px;
+	width: 6rem;
+	height: auto;
+	padding: 13px;
+	border: none;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+.hide {
+	display: none;
+}
+
+.show {
+	display: flex;
+}
