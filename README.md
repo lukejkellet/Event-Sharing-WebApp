@@ -25,27 +25,27 @@ Project consists of a simple PowerShell script that walks the user through "zero
 
 <p align="center">
 Install React using Command Prompt/Windows PowerShell: <br/>
-<img src="https://i.imgur.com/PjBp7qT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/PjBp7qT.png" height="80%" width="80%" alt="Setup Guide"/>
 <br />
 <br />
 Set the directory and start npm:  <br/>
-<img src="https://i.imgur.com/5MtdWXI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/5MtdWXI.png" height="80%" width="80%" alt="Setup Guide"/>
 <br />
 <br />
 Copy the contents of the website-project folder into your web-app folder: <br/>
-<img src="https://i.imgur.com/5HcEvCD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/5HcEvCD.png" height="80%" width="80%" alt="Setup Guide"/>
 <br />
 <br />
 Host the provided database file using your choice of software:  <br/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="80%" width="80%" alt="Setup Guide"/>
 <br />
 <br />
 Build the website using npm-run-build (may take some time):  <br/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="80%" width="80%" alt="Setup Guide"/>
 <br />
 <br />
 Establish a connection to the database on port 3000:  <br/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="80%" width="80%" alt="Setup Guide"/>
 <br />
 <br />
 Browse the website!  <br/>
