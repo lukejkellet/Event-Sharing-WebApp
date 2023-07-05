@@ -3,7 +3,7 @@
  ### [Download Project](https://github.com/lukejkellet/Event-Sharing-WebApp/archive/refs/heads/main.zip)
 
 <h2>Description</h2>
-Project consists of 
+Project consists of several pages developed using HTML, CSS and JavaScript, and most importantly, the React library. The web application delivers content to users dynamically based on their actions and interactions with the site itself, including uploading files, and creating/logging into accounts.
 
 <br />
 
@@ -20,6 +20,13 @@ Project consists of
 - <b>Command Prompt</b>
 - <b>Visual Studio Code</b>
 - <b>UniformServerZ</b>
+
+<h2>Libraries Used:</h2>
+
+- <b>BCrypt</b>
+- <b>express session</b>
+- <b>Cookie & BodyParser</b>
+- <b>multer</b>
 
 <h2>Setup Guide:</h2>
 
