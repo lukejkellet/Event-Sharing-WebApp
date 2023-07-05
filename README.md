@@ -1,6 +1,6 @@
 <h1>React Web Application</h1>
 
- ### [Download Project]()
+ ### [Download Project](https://github.com/lukejkellet/Event-Sharing-WebApp/archive/refs/heads/main.zip)
 
 <h2>Description</h2>
 Project consists of 
