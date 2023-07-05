@@ -41,11 +41,11 @@ Host the provided database file using your choice of software:  <br/>
 <br />
 <br />
 Build the website using npm-run-build (may take some time):  <br/>
-<img src="" height="80%" width="80%" alt="Setup Guide"/>
+<img src="https://i.imgur.com/F1iw6Ub.png" height="80%" width="80%" alt="Setup Guide"/>
 <br />
 <br />
 Establish a connection to the database on port 3000:  <br/>
-<img src="" height="80%" width="80%" alt="Setup Guide"/>
+<img src="https://i.imgur.com/HtwOuFZ.png" height="80%" width="80%" alt="Setup Guide"/>
 <br />
 <br />
 Browse the website!  <br/>
